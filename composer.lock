@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36f02ec199d1708404535bbe66a53c7c",
+    "content-hash": "7d726cad5ed18d8395f13940975e0584",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -889,6 +889,53 @@
                 "url"
             ],
             "time": "2020-09-30T07:37:11+00:00"
+        },
+        {
+            "name": "haruncpi/laravel-id-generator",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/haruncpi/laravel-id-generator.git",
+                "reference": "5d81b7a8232b434e07a84376ec6c63f43bc055cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/haruncpi/laravel-id-generator/zipball/5d81b7a8232b434e07a84376ec6c63f43bc055cf",
+                "reference": "5d81b7a8232b434e07a84376ec6c63f43bc055cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Haruncpi\\LaravelIdGenerator\\IdGeneratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Haruncpi\\LaravelIdGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "cc-by-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Md.Harun-Ur-Rashid",
+                    "email": "harun.cox@gmail.com"
+                }
+            ],
+            "description": "Easy way to generate custom ID in laravel framework",
+            "support": {
+                "issues": "https://github.com/haruncpi/laravel-id-generator/issues",
+                "source": "https://github.com/haruncpi/laravel-id-generator/tree/v1.0.5"
+            },
+            "time": "2020-02-03T08:53:54+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7872,5 +7919,5 @@
         "php": "^7.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
